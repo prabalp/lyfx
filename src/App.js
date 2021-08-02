@@ -6,12 +6,13 @@ import Header from "./components/Header/Header";
 import Sidebar from "./components/Sidebar/Sidebar";
 import Feed from "./components/Feed/Feed";
 import Widgets from "./components/Widgets/Widgets";
+import Navbar from './components/Navbar/Navbar'
 
 function App() {
   const [user, setuser] = useState(true);
   return (
     <div className="App">
-      {!user ? (
+      {/* {!user ? (
         <Login />
       ) : (
         <div className="app">
@@ -22,7 +23,10 @@ function App() {
             <Widgets />
           </div>
         </div>
-      )}
+      )} */}
+
+      <Navbar/>
+      <Feed/>
     </div>
   );
 }
