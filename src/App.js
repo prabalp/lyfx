@@ -6,7 +6,8 @@ import Header from "./components/Header/Header";
 import Sidebar from "./components/Sidebar/Sidebar";
 import Feed from "./components/Feed/Feed";
 import Widgets from "./components/Widgets/Widgets";
-import Navbar from './components/Navbar/Navbar'
+import Navbar from "./components/Navbar/Navbar";
+import SearchProfiles from "./components/SearchProfiles/SearchProfiles";
 
 function App() {
   const [user, setuser] = useState(true);
@@ -25,8 +26,9 @@ function App() {
         </div>
       )} */}
 
-      <Navbar/>
-      <Feed/>
+      <Navbar />
+      {/* <Feed/> */}
+      <SearchProfiles />
     </div>
   );
 }
