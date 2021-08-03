@@ -7,6 +7,7 @@ import Sidebar from "./components/Sidebar/Sidebar";
 import Feed from "./components/Feed/Feed";
 import Widgets from "./components/Widgets/Widgets";
 import Navbar from "./components/Navbar/Navbar";
+import Chat from "./components/Chat/Chat";
 import SearchProfiles from "./components/SearchProfiles/SearchProfiles";
 
 function App() {
@@ -28,7 +29,8 @@ function App() {
 
       <Navbar />
       {/* <Feed/> */}
-      <SearchProfiles />
+      {/* <SearchProfiles /> */}
+      <Chat />
     </div>
   );
 }
