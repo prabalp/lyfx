@@ -8,6 +8,7 @@ import Feed from "./components/Feed/Feed";
 import Widgets from "./components/Widgets/Widgets";
 import Navbar from "./components/Navbar/Navbar";
 import SearchProfiles from "./components/SearchProfiles/SearchProfiles";
+import Profile from "./components/Profile/Profile";
 
 function App() {
   const [user, setuser] = useState(true);
@@ -27,8 +28,9 @@ function App() {
       )} */}
 
       <Navbar />
-      {/* <Feed/> */}
-      <SearchProfiles />
+      <Profile />
+      {/* <Feed /> */}
+      {/* <SearchProfiles /> */}
     </div>
   );
 }
