@@ -3,6 +3,7 @@ import { Grid } from "@material-ui/core";
 import React from "react";
 import Posts from "./Posts/Posts";
 import Right from "./Right/Right";
+import Left from "./Left/Left";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -18,7 +19,7 @@ function Feed() {
     <div className="feed">
       <Grid container justify="center" className={classes.root} spacing={2}>
         <Grid item justify="center" xs={3}>
-          <Posts />
+          <Left />
         </Grid>
         <Grid item justify="center" xs={6}>
           <Posts />
