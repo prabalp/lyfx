@@ -28,8 +28,8 @@ function App() {
       )} */}
 
       <Navbar />
-      {/* <Profile /> */}
-      <Feed />
+      <Profile />
+      {/* <Feed /> */}
       {/* <SearchProfiles /> */}
     </div>
   );
